@@ -14,7 +14,7 @@ FilterByAilment : https://github.com/Shivani-Kamath/Hospital_Management_System/b
 
 FilterByDate : https://github.com/Shivani-Kamath/Hospital_Management_System/blob/main/Hospital_Management_System/Outputs/reportByDate.png
 
-FilterByDoctor : https://github.com/Shivani-Kamath/Hospital_Management_System/blob/main/Hospital_Management_System/Outputs/ReportByDoctor.png
+FilterByDoctor : https://github.com/Shivani-Kamath/Hospital_Management_System/blob/main/Hospital_Management_System/Outputs/reportByDoctor.png
 
 ReportResult : https://github.com/Shivani-Kamath/Hospital_Management_System/blob/main/Hospital_Management_System/Outputs/reportResult.png
 
