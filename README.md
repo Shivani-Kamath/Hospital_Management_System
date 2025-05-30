@@ -1,8 +1,8 @@
 # 🏥 Hospital Management System
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-🎯 Project Purpose  
+🎯 **Project Purpose**  
 To provide a seamless platform for managing patient information through features including:
 
 - Adding new patient records  
@@ -11,9 +11,9 @@ To provide a seamless platform for managing patient information through features
 - Viewing patient information  
 - Generating detailed reports based on admission date, ailments, and assigned doctors
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-🗄️ Database Structure
+🗄️ **Database Structure**
 
 ```sql
 CREATE TABLE Patients (
@@ -25,12 +25,13 @@ CREATE TABLE Patients (
     Ailment VARCHAR(255),
     AssignedDoctor VARCHAR(100)
 );
+```
 
+---
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📂 **Project Structure**
 
-📂 Project Structure
-
+```
 HospitalWebApp/
 ├── WebContent/
 │   ├── index.jsp
@@ -56,30 +57,29 @@ HospitalWebApp/
 │           └── ReportCriteriaServlet.java
 └── WEB-INF/
     └── web.xml
+```
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-🚀 Setup Instructions
+🚀 **Setup Instructions**
 
-🛢️ Database Setup
-Create a database named hospital_db.
+### 🛢️ Database Setup  
+1. Create a database named `hospital_db`.  
+2. Execute the SQL script to create the `Patients` table inside the `hospital_db` database.
 
-Execute the SQL script to create the Patients table inside the hospital_db database.
+### ⚙️ Configure Database Connection  
+- Open `HospitalDAO.java`.  
+- Update the connection parameters to match your database credentials:
 
-⚙️ Configure Database Connection
-Open HospitalDAO.java.
-
-Update the connection parameters to match your database credentials:
-
+```java
 private String jdbcURL = "jdbc:mysql://localhost:3306/hospital_db";
-private String jdbcUsername = "root";          
-private String jdbcPassword = ""; 
+private String jdbcUsername = "root";
+private String jdbcPassword = "";
+```
 
-🧩 Running the Application
-Import the project into your IDE (Eclipse).
+### 🧩 Running the Application  
+1. Import the project into your IDE .  
+2. Configure Apache Tomcat or your preferred servlet container.  
+3. Deploy the project to the server.  
 
-Configure Apache Tomcat or your preferred servlet container.
-
-Deploy the project to the server.
-
-
+---
