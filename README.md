@@ -2,23 +2,20 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🎯 Project Purpose
+🎯 Project Purpose  
 To provide a seamless platform for managing patient information through features including:
 
-Adding new patient records
-
-Updating existing patient details
-
-Deleting patient records
-
-Viewing patient information
-
-Generating detailed reports based on admission date, ailments, and assigned doctors
+- Adding new patient records  
+- Updating existing patient details  
+- Deleting patient records  
+- Viewing patient information  
+- Generating detailed reports based on admission date, ailments, and assigned doctors
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🗄️ Database Structure
 
+```sql
 CREATE TABLE Patients (
     PatientID INT PRIMARY KEY,
     PatientName VARCHAR(100),
@@ -28,6 +25,7 @@ CREATE TABLE Patients (
     Ailment VARCHAR(255),
     AssignedDoctor VARCHAR(100)
 );
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
